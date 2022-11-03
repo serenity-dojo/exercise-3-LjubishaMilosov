@@ -11,5 +11,7 @@ public class WhenCreatingObjects {
         Assert.assertEquals(fido.getName(), "Fido");
         Assert.assertEquals(fido.getFavoriteToy(), "Bone");
         Assert.assertEquals(fido.getAge(), 5);
+        Assert.assertEquals(fido.makeNoise(),"LOUD WOOF");
+        Assert.assertEquals(fido.feed(),true);
     }
 }
